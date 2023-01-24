@@ -1,0 +1,95 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 11%;
+}
+
+.clock_middle {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 48.5%;
+  right: 49.46%;
+  z-index: 2;
+}
+
+.clock_times {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+}
+
+.midday {
+  width: 80px;
+  height: 3px;
+  border: 2px solid black;
+  position: absolute;
+  top: 9%;
+  left: 42%;
+  transform: rotate(90deg);
+}
+.quarterPast {
+  width: 80px;
+  height: 3px;
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+  left: 83%;
+}
+.halfPast {
+  width: 80px;
+  height: 3px;
+  border: 2px solid black;
+  position: absolute;
+  top: 89.5%;
+  left: 42%;
+  transform: rotate(90deg);
+}
+.quarterTo {
+  width: 80px;
+  height: 3px;
+  border: 2px solid black;
+  position: absolute;
+  top: 50%;
+}
+
+.clock_face {
+  width: 500px;
+  height: 500px;
+  border: 10px solid rgb(29, 29, 29);
+  border-radius: 50%;
+  position: relative;
+}
+
+.hand {
+  width: 50%;
+  height: 3px;
+  background-color: rgb(238, 9, 9);
+  position: absolute;
+  top: 49%;
+  right: 50%;
+  transform-origin: 100%;
+  /*This way we can make it rotate over its father and not over itself*/
+  transform: rotate(90deg);
+  //Making it start on 12 PM from the beginning
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  //setting typical bouncy clock transition
+  z-index: 2;
+}
+
+.hour_hand {
+  height: 7.5px;
+  width: 165px;
+}
+.min_hand {
+  height: 3.5px;
+}
+.second_hand {
+  height: 2px;
+}
