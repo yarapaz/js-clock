@@ -1,4 +1,4 @@
-# 🥁 JavaScript - Octapad
+# 🥁 JavaScript - Clock
 
 ![Js Clock Preview](./docs/assets/images/js-clock-preview.jpg)
 
@@ -8,7 +8,7 @@ The clock matches the official time of your country and shows you the time with 
 
 ## 🌐 Link to the App.
 
-Should you wish to take a look to the deployed app, [feel free to visit the link here](https://yarapaz.github.io/js-drum-kit/)
+Should you wish to take a look to the deployed app, [feel free to visit the link here](https://yarapaz.github.io/js-clock/)
 
 ## 🗂️ Content
 
