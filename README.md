@@ -1,4 +1,4 @@
-# 🥁 JavaScript - Clock
+# 🕒 JavaScript - Clock
 
 ![Js Clock Preview](./docs/assets/images/js-clock-preview.jpg)
 
